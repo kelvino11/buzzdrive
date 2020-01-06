@@ -1,0 +1,106 @@
+body
+{
+    background-image: url(reykjavik-city-buses-the-ultimate-guide-4.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.simple-form{
+    text-align: center;
+    margin: 18vw 17vw;
+}
+#booking
+{
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    padding: 50px 0px;
+    border-radius: 30px;
+    
+}
+#submit
+{
+    width: 15vw;
+    padding:10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+#ph,#eph
+{
+    outline: 0px;
+    width: 6vw;
+    padding:10px;
+    border-radius: 5px;
+}
+#phone
+{
+    width: 25vw;
+    padding:10px;
+    border-radius: 5px;
+    outline:0;
+    margin-right: 6vw;
+}
+#fn{
+    width: 25vw;
+    padding:10px;
+    border-radius: 5px;
+    outline:0;
+}
+#cl{
+    width: 25vw;
+    padding:10px;
+    border-radius: 5px;
+    outline:0;
+}
+#Ec
+{
+    width: 25vw;
+    padding:10px;
+    border-radius: 5px;
+    outline:0;
+    margin-right: 6vw;  
+}
+#trav
+{
+    width: 25vw;
+    padding:10px;
+    border-radius: 5px;
+    outline:0;
+}
+#travtime
+{
+    width: 25vw;
+    padding:10px;
+    border-radius: 5px;
+    outline:0;
+}
+#gen
+{
+    color: white;
+    font-size: 18px;
+}
+p
+{
+    color: white;
+}
+h1
+{
+    color: lightcoral;
+}
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::Bootstrap 4 breakpoints*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::Custom media queries*/ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) {}

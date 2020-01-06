@@ -1,0 +1,92 @@
+.jumbotron
+{
+    border-radius: 0;
+    padding:3rem 0 2rem;
+    text-align: center;
+}
+footer
+{
+ background-color: #40474e;
+ color: white;
+ padding:2rem 0 3rem;
+ margin-top: 1rem;   
+}
+footer img
+{
+    height:3rem;
+    margin: 1.5rem 0;
+}
+footer a
+{
+    color: white;
+    
+}
+footer svg.svg-inline--fa
+{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+    
+}
+footer svg.svg-inline--fa:hover
+{
+    color:lightcoral;
+}
+hr.socket
+{
+    border-top: .2rem solid #666b71;
+    width: 100%;
+    
+}
+#home a img{
+    position: sticky;
+    top: 10px;
+}
+#home #myNavbar{
+    position: static;
+    right: 0rem;
+    top: 0rem;
+}
+#home .navbar{
+    position: relative;
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::Bootstrap 4 breakpoints*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    #home .navbar-nav{
+        margin-top: 30px;
+    }
+    #home .navbar{
+        position: relative;
+        height: 10rem;
+    }
+    span.navbar-toggler-icon{
+        position: fixed;
+        top: 0rem;
+        right: 4rem;
+    }
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    #home .navbar-nav{
+        margin-top: 30px;
+    }
+    #home .navbar{
+        position: relative;
+    }
+    span.navbar-toggler-icon{
+        position: fixed;
+        top: 0rem;
+        right: 0rem;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::Custom media queries*/ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) {}

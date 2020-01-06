@@ -1,0 +1,111 @@
+body
+{
+ margin:0;
+ padding:0;
+ font-family:sans-serif;
+ background: url(1.jpg);
+ background-size:90rem;
+ background-repeat: no-repeat;
+}
+.box 
+{
+ position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30rem;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    color: white;
+    border-radius: 10px;
+}
+
+.box h2
+{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.box .form-group
+{
+    position: relative;
+    
+}
+.box .form-group input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 8px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.box .form-group label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 8px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .form-group input:focus ~ label,
+.box .form-group input:valid ~ label
+{
+    top: -18px;
+   left: 0;
+    color: goldenrod;
+    font-size: 12px;
+    
+}
+.box  input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: ;
+    background: ;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.form-check
+{
+    padding-right: 32rem; 
+}
+.form-check label
+{
+    padding-top: 12rem;
+}
+.box .form-group input:focus ~ label,
+.box .form-group input:valid ~ label
+{
+  top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px      
+}
+.box button[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background:lightcoral;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left:42%;
+    
+}

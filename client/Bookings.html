@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bookings.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <title>Book your Bus Here</title>
+<body>
+    <div class="simple-form">
+    <form id="booking">
+        <h1>BOOK A BUS</h1>
+        <p>Enter your fullname</p>
+        <input type="text" name="fullname" id="fn" placeholder="Enter your Full name"><br><br>
+        <p>Enter your Current Location</p>
+        <input type="text" name="CurrentLocation" id="cl" placeholder="Enter your Current Location"><br><br>
+        <p>Enter your Phone number</p>
+        <select id="ph"><option>+233</option><option>+234</option></select> 
+        <input type="number" name="contact" id="phone" placeholder="Enter you Phone number"><br><br>
+        <p>Enter your Emergency Contact</p>
+        <select id="eph"><option>+233</option><option>+234</option></select>
+        <input type="number" name="EmergencyContact" id="Ec" placeholder="Enter your Emergency Contact"><br><br>
+         <p>Select Time</p>
+        <select id="travtime">
+        <option>Day</option>
+        <option>Night</option>
+        </select>
+        <p>Select Destination</p>
+        <select id="trav">
+        <option>Accra</option>
+        <option>Sunyani</option>
+        <option>Kumasi</option>
+        <option>Bolgatanga</option>
+        <option>Takoradi</option>
+        <option>HO</option>
+        </select>
+        <br><br>
+        <p>Select your Gender</p>
+        <input type="radio" name="gender" id="gen"><span id="gen">Male</span>
+        <input type="radio" name="gender"><span id="gen">Female</span><br><br>
+        <input type = "submit" value="Payment" id="submit">
+        </form>
+    </div>
+    </body>
+</html>
